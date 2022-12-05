@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@300;400;500;600;800&display=swap&family=Roboto&family=Roboto+Slab:wght@300;400;500;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+body{
+  
+    background-image: url("thegrinch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height:85vh;
+    border: 5px solid rgb(239, 239, 239);
+    margin: 3.5vw 4vw;
+    padding-right:15vw;
+    border-radius: 20px;
+   overflow: hidden;
+
+}
+
+.hero{
+    width:91.5vw;
+   height: 100%;
+display:flex;
+justify-content: left;
+font-size: 1rem;
+
+}
+/*Navigation*/
+.side-nav{
+    width: 10%;
+    
+   display: flex;
+  
+   align-items: center;
+   flex-direction: column;
+   padding-top: 2rem;
+  
+ 
+}
+.icon{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-icons{
+    margin-top: 3rem;
+}
+.nav-icons a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+/*Middle Content*/
+.middle-content{
+    width:60%;
+ padding-top: 21vh;
+ color: white;
+ margin-left: 5vw;
+
+}
+.middle-content h1{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    font-weight:700;
+   
+    margin: -20px 0;
+}
+.buttons{
+    margin-top: 10px;
+}
+.btn1{
+    background-color: white;
+    padding: 5px;   
+     font-weight: bolder;
+     border:2px solid white;
+     border-radius: 5px;
+     letter-spacing: 3px;
+     font-size: 1rem;
+     cursor: pointer;
+     transition: .5s;
+
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+    border:2px solid white;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn1:hover,.btn2:hover{
+    transform: scale(.9);
+}
+
+
+
+
+
+
+
+
+/*Right Content*/
+.right-content{
+    width: 30%;
+    background: rgba(255, 254, 254, 0.2);
+    border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  z-index: -1;
+  color: white;
+ 
+
+height: 200vh;
+}
+.right-content .icon{
+    padding:5vh 3vw;
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+.input{
+    padding: 1vh 3vw;
+    font-size: 1rem;
+   
+}
+.input input{
+   
+    padding: 5px;
+    padding-right: 5vw;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+border-radius: 5px;
+border: none;
+   }
+
+.movies-list{
+    margin-top: 6vh;
+ margin-left: 5vh;
+
+color: black;
+}
+   .movie-card{
+    width: 90%;
+    display:flex;
+    align-items: center;
+  margin: 3px 0;
+  border-radius: 10px;
+  height:10vh;
+  background: rgba(255, 254, 254, 0.4);
+   }
+   .img img{
+    border-radius: 10px;
+   margin-top: 10px;
+   margin-left: 2px;
+   }
+   .movie-content{
+    line-height: 20px;
+    margin-left: 1vw;
+   }
+   .movie-content p{
+    font-size: .8rem;
+   }
+   .movie-content p i{
+    margin: 0 2px;
+    color: gold;
+   }
+
+  
+   
+ 

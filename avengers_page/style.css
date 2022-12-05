@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@300;400;500;600;800&display=swap&family=Roboto&family=Roboto+Slab:wght@300;400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+hr {
+    background-color: #1b3457;
+    height: 2px;
+    border: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #132743;
+    display: flex;
+    z-index: -1;
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    background: #142d4c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+.logo {
+    color: white;
+    margin-top: 15%;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 5vw;
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Nav1*/
+.nav1 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav1 ul li {
+    color: white;
+    margin: 10px 0;
+    transition: .5s;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.nav1 ul li a:hover {
+    color: #c24d2c;
+}
+
+.nav1 ul li i {
+    padding: 0 25px;
+    font-size: 1.2rem;
+
+}
+
+.active i {
+    color: #af4122;
+}
+
+
+
+.nav1 ul li:hover {
+    color: #c24d2c;
+    background: #1b3457;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* RIGHT CONTAINER*/
+.right {
+    width: 100%;
+    height: 100%;
+
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('rightbg.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100%;
+    width: 100%;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+}
+
+.search {
+    border: .2px solid white;
+    opacity: .5;
+    border-radius: 50px;
+    width: 45%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.search input {
+    width: 30vw;
+    padding: 0px 20px;
+
+    border-radius: 50px;
+    border: none;
+    background: transparent;
+    font-size: 1.2rem;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.search i {
+    padding: 5px 10px;
+    opacity: .8;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.icons i {
+    padding: 10px 15px;
+    opacity: .8;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.icons i:hover {
+    transform: scale(1.2);
+}
+
+/*Movie-poster*/
+.movie-details {
+    width: 80%;
+    color: white;
+    opacity: 0.9;
+    margin-top: 10vh;
+    padding: 0px 50px;
+}
+
+.movie-details h1 {
+    font-size: 4rem;
+    line-height: 10vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 34vw;
+}
+
+.top i {
+    color: gold;
+    opacity: .8;
+}
+
+.para {
+    width: 53%;
+}
+
+.stars {
+    width: 50%;
+
+}
+
+.img-name {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.img-name img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.movie-range {
+    width: 63vw;
+    height: 10vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.movie-range i {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 10px 5px;
+    width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #c24d2c;
+    border-radius: 4px;
+    border: 2px solid #c24d2c;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background: #c24d2c;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #c24d2c;
+}
+
+.play-button {
+
+    position: absolute;
+    right: 20%;
+    top: 38%;
+    font-size: 3rem;
+    color: #af4122;
+
+
+}
