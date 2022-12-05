@@ -18,6 +18,7 @@ hr {
     height: 100vh;
     background-color: #132743;
     display: flex;
+    overflow:hidden;
 }
 
 .left {
